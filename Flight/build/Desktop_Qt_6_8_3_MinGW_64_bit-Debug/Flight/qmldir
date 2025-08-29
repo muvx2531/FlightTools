@@ -1,0 +1,11 @@
+module Flight
+typeinfo appFlight.qmltypes
+prefer :/qt/qml/Flight/
+Main 1.0 Main.qml
+RealtimeOscilloscope 1.0 RealtimeOscilloscope.qml
+PIDadjustmentPanel 1.0 PIDadjustmentPanel.qml
+Joystick 1.0 Joystick.qml
+ProtocolConsole 1.0 ProtocolConsole.qml
+Plot3DOrientation 1.0 Plot3DOrientation.qml
+FlightInstument 1.0 FlightInstument.qml
+

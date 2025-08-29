@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Flight">F:/QT_work/DroneFlightV1/Flight1/Flight/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/Flight</file>
+
+  </qresource>
+</RCC>
