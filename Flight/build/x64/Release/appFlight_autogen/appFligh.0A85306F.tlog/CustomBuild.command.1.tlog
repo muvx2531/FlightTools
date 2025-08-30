@@ -1,0 +1,24 @@
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\CB2D4819FAA67DD29452E6826DDC6D0C\APPFLIGHT_AUTOGEN.RULE
+setlocal
+cd F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/appFlight_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight -BF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build --check-stamp-file F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,14 @@
+-rootPath
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight
+-cmake-output
+-output-file
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/qml_imports/appFlight_build.cmake
+-importPath
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight
+-importPath
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build
+-importPath
+C:/Qt/6.8.3/msvc2022_64/qml
+-qrcFiles
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc

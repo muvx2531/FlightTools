@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Flight">
+    <file alias="qmldir">F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight/qmldir</file>
+  </qresource>
+</RCC>
+

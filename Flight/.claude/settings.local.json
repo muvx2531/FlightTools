@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)",
+      "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)",
+      "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

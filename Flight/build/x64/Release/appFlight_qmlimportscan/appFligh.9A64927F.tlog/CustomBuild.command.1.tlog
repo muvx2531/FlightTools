@@ -1,0 +1,32 @@
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\803A30A690C825138F2B15E454FEDF88\APPFLIGHT_BUILD.CMAKE.RULE
+setlocal
+cd F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+call F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlimportscanner.exe @F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/qml_imports/appFlight_build.rsp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\CB2D4819FAA67DD29452E6826DDC6D0C\APPFLIGHT_QMLIMPORTSCAN.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight -BF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build --check-stamp-file F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

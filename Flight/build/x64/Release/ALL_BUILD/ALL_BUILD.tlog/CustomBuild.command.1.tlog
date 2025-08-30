@@ -1,0 +1,10 @@
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight -BF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build --check-stamp-file F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+-I
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build
+-I
+C:/Qt/6.8.3/msvc2022_64/qml
+--resource
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc
+--resource
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc
+--module
+Flight

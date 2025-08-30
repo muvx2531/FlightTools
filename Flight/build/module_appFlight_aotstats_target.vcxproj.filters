@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\5e8ae4f3e6f7dc559dcd4c33845fe3da\appFlight_FlightInstument_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\5e8ae4f3e6f7dc559dcd4c33845fe3da\appFlight_Joystick_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\5e8ae4f3e6f7dc559dcd4c33845fe3da\appFlight_Main_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\5e8ae4f3e6f7dc559dcd4c33845fe3da\appFlight_PIDadjustmentPanel_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\5e8ae4f3e6f7dc559dcd4c33845fe3da\appFlight_Plot3DOrientation_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\5e8ae4f3e6f7dc559dcd4c33845fe3da\appFlight_ProtocolConsole_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\5e8ae4f3e6f7dc559dcd4c33845fe3da\appFlight_RealtimeOscilloscope_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\5e8ae4f3e6f7dc559dcd4c33845fe3da\module_appFlight.aotstats.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\cb2d4819faa67dd29452e6826ddc6d0c\module_appFlight_aotstats_target.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\CMakeFiles\module_appFlight_aotstats_target" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BCDF80EF-9CFA-3033-A589-B0FE4254E938}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

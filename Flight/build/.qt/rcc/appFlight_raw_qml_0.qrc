@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/qt/qml/Flight/">
+    <file alias="Main.qml">F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/Main.qml</file>
+    <file alias="RealtimeOscilloscope.qml">F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml</file>
+    <file alias="PIDadjustmentPanel.qml">F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/PIDadjustmentPanel.qml</file>
+    <file alias="Joystick.qml">F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/Joystick.qml</file>
+    <file alias="ProtocolConsole.qml">F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/ProtocolConsole.qml</file>
+    <file alias="Plot3DOrientation.qml">F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/Plot3DOrientation.qml</file>
+    <file alias="FlightInstument.qml">F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/FlightInstument.qml</file>
+  </qresource>
+</RCC>
+

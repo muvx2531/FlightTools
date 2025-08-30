@@ -1,0 +1,28 @@
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\9B4A18D87C19F4B1DFB664D3E5841A6B\APPFLIGHT_RES.TXT.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DFILES_INFO_PATH=F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/appFlight_res.cmake -P C:/Qt/6.8.3/msvc2022_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\CB2D4819FAA67DD29452E6826DDC6D0C\APPFLIGHT_COPY_RES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight -BF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build --check-stamp-file F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

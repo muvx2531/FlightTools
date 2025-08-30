@@ -1,0 +1,150 @@
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\D4E5C5A5D8F2AFCB1B21FD65BDA87726\QT6APPFLIGHT_METATYPES.JSON.GEN.RULE
+setlocal
+C:\Qt\6.8.3\msvc2022_64\bin\moc.exe -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/meta_types/qt6appflight_metatypes.json.gen --collect-json @F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/meta_types/appFlight_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/meta_types/qt6appflight_metatypes.json.gen F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/meta_types/qt6appflight_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\A4A1DCE7525982443B4FB23DA40210BA\APPFLIGHT_QMLTYPEREGISTRATIONS.CPP.RULE
+setlocal
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmltyperegistrar.exe --generate-qmltypes=F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight/appFlight.qmltypes --import-name=Flight --major-version=1 --minor-version=0 @F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/qmltypes/appFlight_foreign_types.txt -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/appflight_qmltyperegistrations.cpp F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/meta_types/qt6appflight_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/qmltypes/appFlight.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\CBCC0AF86DD0D1131CCE19B5FE3250EE\QRC_QMAKE_FLIGHT.CPP.RULE
+setlocal
+C:\Qt\6.8.3\msvc2022_64\bin\rcc.exe --output F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qrc_qmake_Flight.cpp --name qmake_Flight F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\5E8AE4F3E6F7DC559DCD4C33845FE3DA\APPFLIGHT_QMLCACHE_LOADER.CPP.RULE
+setlocal
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --resource-name qmlcache_appFlight -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache/appFlight_qmlcache_loader.cpp @F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache/appFlight_qml_loader_file_list.rsp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\5E8AE4F3E6F7DC559DCD4C33845FE3DA\APPFLIGHT_MAIN_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Flight/Main.qml -I F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build -I C:/Qt/6.8.3/msvc2022_64/qml -i F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight/qmldir --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc --dump-aot-stats --module-id=Flight(appFlight) -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache/appFlight_Main_qml.cpp F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/Main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\5E8AE4F3E6F7DC559DCD4C33845FE3DA\APPFLIGHT_REALTIMEOSCILLOSCOPE_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Flight/RealtimeOscilloscope.qml -I F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build -I C:/Qt/6.8.3/msvc2022_64/qml -i F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight/qmldir --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc --dump-aot-stats --module-id=Flight(appFlight) -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache/appFlight_RealtimeOscilloscope_qml.cpp F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\5E8AE4F3E6F7DC559DCD4C33845FE3DA\APPFLIGHT_PIDADJUSTMENTPANEL_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Flight/PIDadjustmentPanel.qml -I F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build -I C:/Qt/6.8.3/msvc2022_64/qml -i F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight/qmldir --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc --dump-aot-stats --module-id=Flight(appFlight) -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache/appFlight_PIDadjustmentPanel_qml.cpp F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/PIDadjustmentPanel.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\5E8AE4F3E6F7DC559DCD4C33845FE3DA\APPFLIGHT_JOYSTICK_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Flight/Joystick.qml -I F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build -I C:/Qt/6.8.3/msvc2022_64/qml -i F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight/qmldir --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc --dump-aot-stats --module-id=Flight(appFlight) -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache/appFlight_Joystick_qml.cpp F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/Joystick.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\5E8AE4F3E6F7DC559DCD4C33845FE3DA\APPFLIGHT_PROTOCOLCONSOLE_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Flight/ProtocolConsole.qml -I F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build -I C:/Qt/6.8.3/msvc2022_64/qml -i F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight/qmldir --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc --dump-aot-stats --module-id=Flight(appFlight) -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache/appFlight_ProtocolConsole_qml.cpp F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/ProtocolConsole.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\5E8AE4F3E6F7DC559DCD4C33845FE3DA\APPFLIGHT_PLOT3DORIENTATION_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Flight/Plot3DOrientation.qml -I F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build -I C:/Qt/6.8.3/msvc2022_64/qml -i F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight/qmldir --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc --dump-aot-stats --module-id=Flight(appFlight) -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache/appFlight_Plot3DOrientation_qml.cpp F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/Plot3DOrientation.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\5E8AE4F3E6F7DC559DCD4C33845FE3DA\APPFLIGHT_FLIGHTINSTUMENT_QML.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Flight/FlightInstument.qml -I F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build -I C:/Qt/6.8.3/msvc2022_64/qml -i F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Flight/qmldir --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qmake_Flight.qrc --resource F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc --dump-aot-stats --module-id=Flight(appFlight) -o F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.rcc/qmlcache/appFlight_FlightInstument_qml.cpp F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/FlightInstument.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\BUILD\CMAKEFILES\CBCC0AF86DD0D1131CCE19B5FE3250EE\QRC_APPFLIGHT_RAW_QML_0.CPP.RULE
+setlocal
+C:\Qt\6.8.3\msvc2022_64\bin\rcc.exe --output F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/qrc_appFlight_raw_qml_0.cpp --name appFlight_raw_qml_0 F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/.qt/rcc/appFlight_raw_qml_0.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\QT_WORK\DRONEFLIGHTV1\FLIGHT1\FLIGHTTOOLS\FLIGHT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight -BF:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build --check-stamp-file F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,82 @@
+{
+    "classes": [
+        {
+            "className": "SineWaveTest",
+            "lineNumber": 17,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "stop",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "isRunning",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "frequency",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "setFrequency",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "amplitude",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "setAmplitude",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "getFrequency",
+                    "returnType": "double"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "getAmplitude",
+                    "returnType": "double"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "SineWaveTest",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "generateSample",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "sinewavetest.h",
+    "outputRevision": 68
+}
