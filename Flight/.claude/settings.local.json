@@ -3,7 +3,8 @@
     "allow": [
       "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)",
       "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)",
-      "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)"
+      "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)",
+      "Bash(find:*)"
     ],
     "deny": [],
     "ask": []

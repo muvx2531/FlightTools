@@ -4,6 +4,7 @@
 #include <QtQuickControls2/QQuickStyle>
 #include <QQuickWindow>
 #include <QSGRendererInterface>
+#include "SineWaveTest.h"
 
 int main(int argc, char *argv[])
 {
@@ -21,6 +22,9 @@ int main(int argc, char *argv[])
     QQuickStyle::setStyle("Basic");
 
     QQmlApplicationEngine engine;
+    
+    // Register QML types (this should be called before loading QML)
+    qmlRegisterType<SineWaveTest>("Flight.Backend", 1, 0, "SineWaveTest");
     
     // Register OpenGL support flag
     engine.rootContext()->setContextProperty("openGLSupported", openGLSupported);

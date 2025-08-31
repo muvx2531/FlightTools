@@ -1,2 +1,245 @@
 [
+    {
+        "classes": [
+            {
+                "className": "SineWaveWorker",
+                "lineNumber": 32,
+                "object": true,
+                "qualifiedClassName": "SineWaveWorker",
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "start",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "stop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "params",
+                                "type": "GeneratorParams"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "reconfigure",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 3,
+                        "name": "generateSamples",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "SineWaveTest",
+                "lineNumber": 67,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "start",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "params",
+                                "type": "QVariantMap"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "start",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "stop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "params",
+                                "type": "QVariantMap"
+                            }
+                        ],
+                        "index": 8,
+                        "name": "reconfigure",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "qmlOscilloscope",
+                                "type": "QObject*"
+                            }
+                        ],
+                        "index": 9,
+                        "name": "flushToQml",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "running",
+                        "notify": "runningChanged",
+                        "read": "running",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "sampleRate",
+                        "notify": "sampleRateChanged",
+                        "read": "sampleRate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setSampleRate"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "bufferUsage",
+                        "notify": "bufferUsageChanged",
+                        "read": "bufferUsage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "SineWaveTest",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "running",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "runningChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rate",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "sampleRateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "usage",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "bufferUsageChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "timestamps",
+                                "type": "QVariantList"
+                            },
+                            {
+                                "name": "channel0",
+                                "type": "QVariantList"
+                            },
+                            {
+                                "name": "channel1",
+                                "type": "QVariantList"
+                            },
+                            {
+                                "name": "channel2",
+                                "type": "QVariantList"
+                            },
+                            {
+                                "name": "channel3",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "samplesReady",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rate",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "setSampleRate",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "SineWaveTest.h",
+        "outputRevision": 68
+    }
 ]

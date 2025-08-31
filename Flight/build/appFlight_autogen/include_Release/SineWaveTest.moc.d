@@ -1,4 +1,5 @@
-F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/appFlight_autogen/include_Release/EWIEGA46WW/moc_SineWaveTest.cpp: F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/SineWaveTest.h \
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/appFlight_autogen/include_Release/SineWaveTest.moc: F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/SineWaveTest.cpp \
+  C:/Qt/6.8.3/msvc2022_64/include/QtCore/QDebug \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/QElapsedTimer \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/QList \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/QMap \
@@ -11,6 +12,7 @@ F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/appFlight_autogen/incl
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/QVariant \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/QVariantList \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/QVariantMap \
+  C:/Qt/6.8.3/msvc2022_64/include/QtCore/QtMath \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/q20memory.h \
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/q20type_traits.h \
@@ -135,4 +137,5 @@ F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/appFlight_autogen/incl
   C:/Qt/6.8.3/msvc2022_64/include/QtCore/qyieldcpu.h \
   C:/Qt/6.8.3/msvc2022_64/include/QtQml/qqmlregistration.h \
   C:/Qt/6.8.3/msvc2022_64/include/QtQmlIntegration/qqmlintegration.h \
-  F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RingBuffer.h
+  F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RingBuffer.h \
+  F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/SineWaveTest.h

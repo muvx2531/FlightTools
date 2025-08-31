@@ -2,58 +2,119 @@
 #define SINEWAVETEST_H
 
 #include <QObject>
+#include <QThread>
 #include <QTimer>
 #include <QElapsedTimer>
-#include <QtMath>
+#include <QMutex>
+#include <QMutexLocker>
+#include <QVariant>
+#include <QVariantMap>
+#include <QVariantList>
+#include <QtQml/qqmlregistration.h>
+#include "RingBuffer.h"
+#include <cmath>
+#include <random>
 
-class OscilloscopeData; // Forward declaration
+struct SampleData {
+    double t;     // Timestamp in seconds
+    float y0, y1, y2, y3;  // Channel values
+};
 
-/**
- * @brief Sine wave generator for testing oscilloscope
- * 
- * Generates a 50Hz sine wave with amplitude 6 and feeds it to the oscilloscope buffer
- * at 1kHz sampling rate (1 sample every 1ms)
- */
-class SineWaveTest : public QObject
+struct GeneratorParams {
+    double sampleRate = 1000.0;  // Hz
+    double dc[4] = {0.0, 0.0, 0.0, 0.0};
+    double amplitude[4] = {1.0, 1.0, 1.0, 1.0};
+    double frequency[4] = {1.0, 2.0, 3.0, 4.0};  // Hz
+    double phase[4] = {0.0, 35.0, 70.0, 105.0};  // degrees
+    double noiseLevel[4] = {0.01, 0.01, 0.01, 0.01};
+};
+
+class SineWaveWorker : public QObject
 {
     Q_OBJECT
 
 public:
-    explicit SineWaveTest(OscilloscopeData *oscilloscopeData, QObject *parent = nullptr);
-    ~SineWaveTest();
-
-    // Control methods
-    Q_INVOKABLE void start();
-    Q_INVOKABLE void stop();
-    Q_INVOKABLE bool isRunning() const { return m_running; }
+    explicit SineWaveWorker(RingBuffer<SampleData, 65536>* buffer, QObject* parent = nullptr);
     
-    // Configuration
-    Q_INVOKABLE void setFrequency(double frequency);
-    Q_INVOKABLE void setAmplitude(double amplitude);
-    Q_INVOKABLE double getFrequency() const { return m_frequency; }
-    Q_INVOKABLE double getAmplitude() const { return m_amplitude; }
+    void setParams(const GeneratorParams& params);
+    GeneratorParams getParams() const;
+
+public slots:
+    void start();
+    void stop();
+    void reconfigure(const GeneratorParams& params);
 
 private slots:
-    void generateSample();
+    void generateSamples();
 
 private:
-    // Oscilloscope data reference
-    OscilloscopeData *m_oscilloscopeData;
-    
-    // Timing
-    QTimer *m_sampleTimer;
+    RingBuffer<SampleData, 65536>* m_buffer;
+    QTimer* m_timer;
     QElapsedTimer m_elapsedTimer;
-    double m_startTime;
+    GeneratorParams m_params;
+    mutable QMutex m_paramsMutex;
     
-    // Wave generation parameters
+    uint64_t m_sampleCounter;
     bool m_running;
-    double m_frequency;     // 50 Hz
-    double m_amplitude;     // 6.0
-    double m_phase;         // Current phase
     
-    // Sampling rate
-    static constexpr int SAMPLE_RATE_HZ = 100;  // 100 Hz (reduced for performance)
-    static constexpr int SAMPLE_INTERVAL_MS = 1000 / SAMPLE_RATE_HZ;  // 10 ms
+    // Random number generation
+    std::mt19937 m_rng;
+    std::normal_distribution<double> m_noiseDist;
+    
+    static constexpr int SAMPLES_PER_BATCH = 100;  // Generate samples in batches
+};
+
+class SineWaveTest : public QObject
+{
+    Q_OBJECT
+    QML_ELEMENT
+    
+    Q_PROPERTY(bool running READ running NOTIFY runningChanged)
+    Q_PROPERTY(double sampleRate READ sampleRate WRITE setSampleRate NOTIFY sampleRateChanged)
+    Q_PROPERTY(int bufferUsage READ bufferUsage NOTIFY bufferUsageChanged)
+
+public:
+    explicit SineWaveTest(QObject* parent = nullptr);
+    ~SineWaveTest();
+    
+    bool running() const { return m_running; }
+    double sampleRate() const;
+    int bufferUsage() const;
+    
+    Q_INVOKABLE void start();
+    Q_INVOKABLE void start(const QVariantMap& params);
+    Q_INVOKABLE void stop();
+    Q_INVOKABLE void reconfigure(const QVariantMap& params);
+    
+    // Called from UI thread at 30 Hz to flush data to QML
+    Q_INVOKABLE void flushToQml(QObject* qmlOscilloscope);
+
+public slots:
+    void setSampleRate(double rate);
+
+signals:
+    void runningChanged(bool running);
+    void sampleRateChanged(double rate);
+    void bufferUsageChanged(int usage);
+    void samplesReady(const QVariantList& timestamps, const QVariantList& channel0,
+                     const QVariantList& channel1, const QVariantList& channel2, 
+                     const QVariantList& channel3);
+
+private:
+    GeneratorParams variantMapToParams(const QVariantMap& map) const;
+    void updateBufferUsage();
+    
+    RingBuffer<SampleData, 65536> m_buffer;
+    SineWaveWorker* m_worker;
+    QThread* m_workerThread;
+    QTimer* m_flushTimer;
+    
+    bool m_running;
+    mutable QMutex m_mutex;
+    
+    static constexpr int MAX_BATCH_SIZE = 5000;
+    static constexpr double UI_UPDATE_RATE = 30.0;  // Hz
+    static constexpr int DEFAULT_DISPLAY_RATE = 150;  // points/sec/channel
 };
 
 #endif // SINEWAVETEST_H

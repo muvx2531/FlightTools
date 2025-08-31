@@ -1303,6 +1303,18 @@
 	"HEADERS" : 
 	[
 		[
+			"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RingBuffer.h",
+			"MU",
+			"EWIEGA46WW/moc_RingBuffer.cpp",
+			null
+		],
+		[
+			"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/SineWaveTest.h",
+			"MU",
+			"EWIEGA46WW/moc_SineWaveTest.cpp",
+			null
+		],
+		[
 			"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/ddf_appFlight.h",
 			"MU",
 			"JU62CA5L7X/moc_ddf_appFlight.cpp",
@@ -1574,6 +1586,11 @@
 	"SETTINGS_FILE_Release" : "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/appFlight_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
+		[
+			"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/SineWaveTest.cpp",
+			"MU",
+			null
+		],
 		[
 			"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/main.cpp",
 			"MU",
