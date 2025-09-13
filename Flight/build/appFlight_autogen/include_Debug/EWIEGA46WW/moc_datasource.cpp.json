@@ -1,0 +1,64 @@
+{
+    "classes": [
+        {
+            "className": "DataSource",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "DataSource",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "updateCurve",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "workRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "series",
+                            "type": "QAbstractSeries*"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "doWork",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "name": "generateSineWave",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "datasource.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\x64\Debug\appFlight_copy_qml</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\x64\Debug\appFlight_copy_res</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\x64\Debug\appFlight_qmlimportscan</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\x64\Debug\appFlight_autogen</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\x64\Debug\appFlight_automoc_json_extraction</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\Debug\appFlight.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

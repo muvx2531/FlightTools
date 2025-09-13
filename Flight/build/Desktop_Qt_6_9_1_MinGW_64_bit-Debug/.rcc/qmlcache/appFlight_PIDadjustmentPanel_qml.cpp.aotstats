@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 249,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 13
+                    }
+                ],
+                "filePath": "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/PIDadjustmentPanel.qml"
+            }
+        ],
+        "moduleId": "Flight(appFlight)"
+    }
+]

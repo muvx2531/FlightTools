@@ -7,6 +7,9 @@
     <ClCompile Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\datasource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\appflight_qmltyperegistrations.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
@@ -51,6 +54,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\datasource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\ddf_appFlight.h">
       <Filter>Source Files\Generated</Filter>
     </ClInclude>
@@ -171,6 +177,9 @@
   <ItemGroup>
     <Filter Include="CMake Rules">
       <UniqueIdentifier>{BCDF80EF-9CFA-3033-A589-B0FE4254E938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0E7F1C9F-A30B-336B-AA01-331AB6B34D9D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{9036C77E-A553-337E-B162-96CA25B221F5}</UniqueIdentifier>

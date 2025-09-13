@@ -1098,6 +1098,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\main.cpp" />
+    <ClCompile Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\datasource.cpp" />
+    <ClInclude Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\datasource.h" />
     <ClInclude Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\ddf_appFlight.h" />
     <None Include="F:\QT_work\DroneFlightV1\Flight1\FlightTools\Flight\build\meta_types\qt6appflight_metatypes.json.gen">
     </None>

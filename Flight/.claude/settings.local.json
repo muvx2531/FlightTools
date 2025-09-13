@@ -3,7 +3,9 @@
     "allow": [
       "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)",
       "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)",
-      "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)"
+      "Read(F:\\QT_work\\SimpleTune\\SimpleTune\\SimpleTune/**)",
+      "Read(//f/QT_work/Oscilloscope-main/Oscilloscope/**)",
+      "Bash(cmake:*)"
     ],
     "deny": [],
     "ask": []

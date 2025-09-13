@@ -1307,6 +1307,12 @@
 			"MU",
 			"JU62CA5L7X/moc_ddf_appFlight.cpp",
 			null
+		],
+		[
+			"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/datasource.h",
+			"MU",
+			"EWIEGA46WW/moc_datasource.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -1574,6 +1580,11 @@
 	"SETTINGS_FILE_Release" : "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/appFlight_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
+		[
+			"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/datasource.cpp",
+			"MU",
+			null
+		],
 		[
 			"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/main.cpp",
 			"MU",
