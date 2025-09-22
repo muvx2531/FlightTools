@@ -182,4 +182,8 @@ private:
     std::atomic<size_t> m_tail{0};  // Consumer reads from here
 };
 
+<<<<<<< HEAD
 #endif // RINGBUFFER_H
+=======
+#endif // RINGBUFFER_H
+>>>>>>> bc523e3f8eae207881223cc6b330ef17e9f38592

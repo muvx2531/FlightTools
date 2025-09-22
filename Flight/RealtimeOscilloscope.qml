@@ -2,6 +2,7 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15  
 import QtQuick.Layouts 1.15
 import QtCharts 2.15
+import Flight.Backend 1.0
 
 Rectangle {
     id: oscilloscopeRoot
@@ -12,16 +13,45 @@ Rectangle {
     border.width: 2
     radius: 8
 
+<<<<<<< HEAD
     // Simple properties
     property real range: 0.005
     property real refreshPoints: 0.005
     property bool isRunning: false
+=======
+    // Backend data source
+    SineWaveTest {
+        id: sineWaveBackend
+        
+        onRunningChanged: function(running) {
+            oscilloscopeRoot.isRunning = running
+        }
+        
+        onSampleRateChanged: function(rate) {
+            oscilloscopeRoot.currentSampleRate = rate
+        }
+        
+        onBufferUsageChanged: function(usage) {
+            oscilloscopeRoot.bufferUsage = usage
+        }
+    }
+    
+    // UI properties
+    property bool isRunning: true  // Start with display running
+>>>>>>> bc523e3f8eae207881223cc6b330ef17e9f38592
     property var channelEnabled: [true, true, true, true]
     property var channelColors: ["#00ff00", "#ffff00", "#ff6600", "#ff0088"]
     property var channelLabels: ["CH1", "CH2", "CH3", "CH4"]
     
+<<<<<<< HEAD
     // Frame rate properties - handled by backend
     property real currentFPS: 0
+=======
+    // Performance monitoring
+    property real currentSampleRate: 1000.0
+    property int bufferUsage: 0
+    property int updateCount: 0
+>>>>>>> bc523e3f8eae207881223cc6b330ef17e9f38592
     
     // Fixed time scale: 0.1s/div
     property real fixedTimeScale: 0.1
@@ -33,7 +63,62 @@ Rectangle {
     property int currentAmplitudeScaleIndex: 6  // Default to 1/div
 
     Component.onCompleted: {
+<<<<<<< HEAD
         console.log("Simple oscilloscope loaded")
+=======
+        console.log("Oscilloscope with SineWaveTest backend loaded")
+        // Start the backend automatically
+        sineWaveBackend.start()
+    }
+    
+    Component.onDestruction: {
+        sineWaveBackend.stop()
+    }
+    
+    // Backend data processing
+    function addSamples(timestamps, ch0, ch1, ch2, ch3) {
+        var channels = [channel1, channel2, channel3, channel4]
+        var channelData = [ch0, ch1, ch2, ch3]
+        
+        if (timestamps.length === 0) return
+        
+        var currentTimeScale = oscilloscopeRoot.timeScales[oscilloscopeRoot.currentTimeScaleIndex]
+        var currentAmplitudeScale = oscilloscopeRoot.amplitudeScales[oscilloscopeRoot.currentAmplitudeScaleIndex]
+        var timeWindow = currentTimeScale * 10
+        
+        // Add new points to each enabled channel
+        for (var ch = 0; ch < 4; ch++) {
+            if (!oscilloscopeRoot.channelEnabled[ch]) continue
+            
+            var series = channels[ch]
+            var data = channelData[ch]
+            
+            // Add all new points
+            for (var i = 0; i < timestamps.length; i++) {
+                var scaledValue = data[i] * currentAmplitudeScale
+                series.append(timestamps[i], scaledValue)
+            }
+            
+            // Remove old points to maintain performance
+            var maxPoints = 1000
+            if (series.count > maxPoints) {
+                series.removePoints(0, series.count - maxPoints)
+            }
+        }
+        
+        // Auto-scale time axis
+        var lastTime = timestamps[timestamps.length - 1]
+        if (lastTime > timeWindow) {
+            timeAxis.min = lastTime - timeWindow
+            timeAxis.max = lastTime
+        } else {
+            timeAxis.min = 0
+            timeAxis.max = timeWindow
+        }
+        
+        // Update counter for performance monitoring
+        oscilloscopeRoot.updateCount++
+>>>>>>> bc523e3f8eae207881223cc6b330ef17e9f38592
     }
 
     RowLayout {
@@ -74,9 +159,9 @@ Rectangle {
                     
                     Text {
                         anchors.centerIn: parent
-                        text: "FPS: " + oscilloscopeRoot.currentFPS.toFixed(1)
-                        color: oscilloscopeRoot.currentFPS >= 25 ? "#00ff00" : 
-                               oscilloscopeRoot.currentFPS >= 15 ? "#ffff00" : "#ff0000"
+                        text: "Rate: " + oscilloscopeRoot.currentSampleRate.toFixed(0) + " Hz"
+                        color: oscilloscopeRoot.currentSampleRate >= 900 ? "#00ff00" : 
+                               oscilloscopeRoot.currentSampleRate >= 500 ? "#ffff00" : "#ff0000"
                         font.pointSize: 8
                         font.bold: true
                     }
@@ -87,17 +172,24 @@ Rectangle {
                     width: parent.width
                     height: 35
                     text: oscilloscopeRoot.isRunning ? "⏸ STOP" : "▶ START"
+                    enabled: !buttonDebounceTimer.running
                     
                     background: Rectangle {
-                        color: oscilloscopeRoot.isRunning ? "#ff4444" : "#00aa44"
+                        color: {
+                            if (!parent.enabled) return "#666666"
+                            return oscilloscopeRoot.isRunning ? "#ff4444" : "#00aa44"
+                        }
                         radius: 4
-                        border.color: oscilloscopeRoot.isRunning ? "#ff6666" : "#00cc55"
+                        border.color: {
+                            if (!parent.enabled) return "#888888"
+                            return oscilloscopeRoot.isRunning ? "#ff6666" : "#00cc55"
+                        }
                         border.width: 1
                     }
                     
                     contentItem: Text {
                         text: parent.text
-                        color: "white"
+                        color: parent.enabled ? "white" : "#aaaaaa"
                         font.pointSize: 9
                         font.bold: true
                         horizontalAlignment: Text.AlignHCenter
@@ -105,8 +197,24 @@ Rectangle {
                     }
                     
                     onClicked: {
-                        oscilloscopeRoot.isRunning = !oscilloscopeRoot.isRunning
-                        console.log("Oscilloscope running:", oscilloscopeRoot.isRunning)
+                        // Start debounce timer to prevent rapid clicks
+                        buttonDebounceTimer.start()
+                        
+                        // Toggle display timer (FPS), not the backend
+                        if (oscilloscopeRoot.isRunning) {
+                            console.log("Stopping display timer...")
+                            oscilloscopeRoot.isRunning = false
+                        } else {
+                            console.log("Starting display timer...")
+                            oscilloscopeRoot.isRunning = true
+                        }
+                    }
+                    
+                    // Debounce timer to prevent rapid button clicks
+                    Timer {
+                        id: buttonDebounceTimer
+                        interval: 500  // 500ms debounce
+                        repeat: false
                     }
                 }
 
@@ -133,6 +241,7 @@ Rectangle {
                     }
                     
                     onClicked: {
+<<<<<<< HEAD
                         // Clear chart series and reset timer
                         oscilloscopeChart.series("CH1").clear()
                         oscilloscopeChart.series("CH2").clear()
@@ -151,6 +260,22 @@ Rectangle {
                         var timeWindow = oscilloscopeRoot.fixedTimeScale * 10  // 0.1 * 10 = 1.0 second
                         oscilloscopeChart.axisX().min = 0
                         oscilloscopeChart.axisX().max = timeWindow
+=======
+                        // Clear chart series
+                        channel1.clear()
+                        channel2.clear()
+                        channel3.clear()
+                        channel4.clear()
+                        
+                        // Reset counters
+                        oscilloscopeRoot.updateCount = 0
+                        
+                        // Reset time axis to initial state
+                        var currentTimeScale = oscilloscopeRoot.timeScales[oscilloscopeRoot.currentTimeScaleIndex]
+                        var timeWindow = currentTimeScale * 10
+                        timeAxis.min = 0
+                        timeAxis.max = timeWindow
+>>>>>>> bc523e3f8eae207881223cc6b330ef17e9f38592
                         
                         console.log("Oscilloscope cleared")
                     }
@@ -194,12 +319,17 @@ Rectangle {
                             CheckBox {
                                 id: channelCheckBox
                                 anchors.verticalCenter: parent.verticalCenter
-                                checked: oscilloscopeRoot.channelEnabled[index]
+                                
+                                Component.onCompleted: {
+                                    checked = oscilloscopeRoot.channelEnabled[index]
+                                }
                                 
                                 onCheckedChanged: {
-                                    var newChannelEnabled = oscilloscopeRoot.channelEnabled.slice()
-                                    newChannelEnabled[index] = checked
-                                    oscilloscopeRoot.channelEnabled = newChannelEnabled
+                                    if (oscilloscopeRoot.channelEnabled[index] !== checked) {
+                                        var newChannelEnabled = oscilloscopeRoot.channelEnabled.slice()
+                                        newChannelEnabled[index] = checked
+                                        oscilloscopeRoot.channelEnabled = newChannelEnabled
+                                    }
                                 }
 
                                 indicator: Rectangle {
@@ -450,6 +580,7 @@ Rectangle {
                 useOpenGL: openGLSupported
             }
             
+<<<<<<< HEAD
             // Timer removed - data updates handled by backend
         }
     }
@@ -474,6 +605,21 @@ Rectangle {
                 dataSource.update(oscilloscopeChart.series("CH1"));
                 // Debug: console.log("CH1 series updated")
             }
+=======
+        }
+    }
+    
+    // Backend data flush timer (30 Hz)
+    Timer {
+        id: flushTimer
+        interval: 33  // ~30 Hz
+        running: oscilloscopeRoot.isRunning
+        repeat: true
+        
+        onTriggered: {
+            // Flush data from backend to QML
+            sineWaveBackend.flushToQml(oscilloscopeRoot)
+>>>>>>> bc523e3f8eae207881223cc6b330ef17e9f38592
         }
     }
 }

@@ -4,12 +4,16 @@
 #include <QtQuickControls2/QQuickStyle>
 #include <QQuickWindow>
 #include <QSGRendererInterface>
+<<<<<<< HEAD
 #include <QtDebug>
 #include <QQueue>
 #include <QThread>
 
 #include "datasource.h"
 #include "samplerworker.h"
+=======
+#include "SineWaveTest.h"
+>>>>>>> bc523e3f8eae207881223cc6b330ef17e9f38592
 
 int main(int argc, char *argv[])
 {
@@ -41,7 +45,15 @@ int main(int argc, char *argv[])
     QObject::connect(samplerWorker, &SamplerWorker::updateCurve, &dataSource, &DataSource::updateCurve);
 
     QQmlApplicationEngine engine;
+<<<<<<< HEAD
 
+=======
+    
+    // Register QML types (this should be called before loading QML)
+    qmlRegisterType<SineWaveTest>("Flight.Backend", 1, 0, "SineWaveTest");
+    
+    // Register OpenGL support flag
+>>>>>>> bc523e3f8eae207881223cc6b330ef17e9f38592
     engine.rootContext()->setContextProperty("openGLSupported", openGLSupported);
     engine.rootContext()->setContextProperty("dataSource", &dataSource);
     engine.rootContext()->setContextProperty("sampleWorker", samplerWorker);

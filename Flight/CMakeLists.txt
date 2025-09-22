@@ -10,12 +10,18 @@ qt_standard_project_setup(REQUIRES 6.8)
 
 qt_add_executable(appFlight
     main.cpp
+<<<<<<< HEAD
     datasource.cpp
     datasource.h
     samplerworker.cpp
     samplerworker.h
     frame.cpp
     frame.h
+=======
+    SineWaveTest.cpp
+    SineWaveTest.h
+    RingBuffer.h
+>>>>>>> bc523e3f8eae207881223cc6b330ef17e9f38592
 )
 
 qt_add_qml_module(appFlight
