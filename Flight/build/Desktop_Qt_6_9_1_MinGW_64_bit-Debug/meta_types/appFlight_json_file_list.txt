@@ -1,1 +1,3 @@
 F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appFlight_autogen/include/../EWIEGA46WW/moc_datasource.cpp.json
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appFlight_autogen/include/../EWIEGA46WW/moc_frame.cpp.json
+F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appFlight_autogen/include/../EWIEGA46WW/moc_samplerworker.cpp.json

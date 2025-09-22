@@ -41,30 +41,18 @@ template <> constexpr inline auto DataSource::qt_create_metaobjectdata<qt_meta_t
         "DataSource",
         "updateCurve",
         "",
-        "workRequested",
-        "finished",
         "update",
         "QAbstractSeries*",
-        "series",
-        "doWork",
-        "generateSineWave"
+        "series"
     };
 
     QtMocHelpers::UintData qt_methods {
         // Signal 'updateCurve'
         QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
-        // Signal 'workRequested'
-        QtMocHelpers::SignalData<void()>(3, 2, QMC::AccessPublic, QMetaType::Void),
-        // Signal 'finished'
-        QtMocHelpers::SignalData<void()>(4, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'update'
-        QtMocHelpers::SlotData<void(QAbstractSeries *)>(5, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { 0x80000000 | 6, 7 },
+        QtMocHelpers::SlotData<void(QAbstractSeries *)>(3, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { 0x80000000 | 4, 5 },
         }}),
-        // Slot 'doWork'
-        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPublic, QMetaType::Void),
-        // Slot 'generateSineWave'
-        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -89,32 +77,12 @@ void DataSource::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->updateCurve(); break;
-        case 1: _t->workRequested(); break;
-        case 2: _t->finished(); break;
-        case 3: _t->update((*reinterpret_cast< std::add_pointer_t<QAbstractSeries*>>(_a[1]))); break;
-        case 4: _t->doWork(); break;
-        case 5: _t->generateSineWave(); break;
+        case 1: _t->update((*reinterpret_cast< std::add_pointer_t<QAbstractSeries*>>(_a[1]))); break;
         default: ;
-        }
-    }
-    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        switch (_id) {
-        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-        case 3:
-            switch (*reinterpret_cast<int*>(_a[1])) {
-            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-            case 0:
-                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QAbstractSeries* >(); break;
-            }
-            break;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
         if (QtMocHelpers::indexOfMethod<void (DataSource::*)()>(_a, &DataSource::updateCurve, 0))
-            return;
-        if (QtMocHelpers::indexOfMethod<void (DataSource::*)()>(_a, &DataSource::workRequested, 1))
-            return;
-        if (QtMocHelpers::indexOfMethod<void (DataSource::*)()>(_a, &DataSource::finished, 2))
             return;
     }
 }
@@ -138,14 +106,14 @@ int DataSource::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 2;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
-            qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        if (_id < 2)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 2;
     }
     return _id;
 }
@@ -154,17 +122,5 @@ int DataSource::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 void DataSource::updateCurve()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
-}
-
-// SIGNAL 1
-void DataSource::workRequested()
-{
-    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
-}
-
-// SIGNAL 2
-void DataSource::finished()
-{
-    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 QT_WARNING_POP

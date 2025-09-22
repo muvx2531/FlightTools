@@ -1,81 +1,21 @@
 appFlight_autogen/timestamp: \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeCXXInformation.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeDetermineRCCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeNinjaFindMake.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeRCCompiler.cmake.in \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeSystem.cmake.in \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CMakeTestRCCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake \
@@ -83,17 +23,14 @@ appFlight_autogen/timestamp: \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeRCLinkerInformation.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Internal/CheckFlagCommonConfig.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Determine-CXX.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake \
@@ -101,29 +38,15 @@ appFlight_autogen/timestamp: \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-windres.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake \
-	C:/Qt/6.9.1/mingw_64/include/QtCharts/QAbstractAxis \
-	C:/Qt/6.9.1/mingw_64/include/QtCharts/QAbstractSeries \
-	C:/Qt/6.9.1/mingw_64/include/QtCharts/QChartGlobal \
-	C:/Qt/6.9.1/mingw_64/include/QtCharts/qabstractaxis.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCharts/qabstractseries.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCharts/qchartglobal.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCharts/qtcharts-config.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCharts/qtchartsexports.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/QFile \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/QMutex \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/QPointF \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/QQueue \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/QTimer \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/QVariant \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/q17memory.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/q20iterator.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/q20memory.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/q20type_traits.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/q20utility.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/q23utility.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qalgorithms.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qanystringview.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qarraydata.h \
@@ -133,7 +56,6 @@ appFlight_autogen/timestamp: \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qatomic.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qatomic_cxx11.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qbasicatomic.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qbasictimer.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qbindingstorage.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qbytearray.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -149,14 +71,10 @@ appFlight_autogen/timestamp: \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qcontainerfwd.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qcontainerinfo.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qcontainertools_impl.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qcontiguouscache.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qdarwinhelpers.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qdatastream.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qdeadlinetimer.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qdebug.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qelapsedtimer.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qendian.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qeventloop.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qexceptionhandling.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qfile.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qfiledevice.h \
@@ -168,19 +86,15 @@ appFlight_autogen/timestamp: \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qgenericatomic.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qglobal.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qglobalstatic.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qhash.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qhashfunctions.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qiodevice.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qiodevicebase.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qiterable.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qiterator.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qlatin1stringview.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qline.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qlist.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qlogging.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qmalloc.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qmap.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qmargins.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qmath.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qmetacontainer.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qmetatype.h \
@@ -194,19 +108,14 @@ appFlight_autogen/timestamp: \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qoverload.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qpair.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qpoint.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qprocessordetection.h \
+	C:/Qt/6.9.1/mingw_64/include/QtCore/qproperty.h \
+	C:/Qt/6.9.1/mingw_64/include/QtCore/qpropertyprivate.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qqueue.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qrect.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qrefcount.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qscopedpointer.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qscopeguard.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qset.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qshareddata.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qshareddata_impl.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qsharedpointer.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qsize.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qspan.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qstdlibdetection.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qstring.h \
@@ -233,9 +142,7 @@ appFlight_autogen/timestamp: \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qtdeprecationdefinitions.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qtdeprecationmarkers.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qtenvironmentvariables.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qtextstream.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qtformat_impl.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qtimer.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qtmetamacros.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qtnoop.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -248,31 +155,13 @@ appFlight_autogen/timestamp: \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qtypeinfo.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qtypes.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qutf8stringview.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qvariant.h \
-	C:/Qt/6.9.1/mingw_64/include/QtCore/qvarlengtharray.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qversiontagging.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/qyieldcpu.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/QFont \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/QPen \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qbrush.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qcolor.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qfont.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qimage.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qpaintdevice.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qpen.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qpixelformat.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qpixmap.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qpolygon.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qregion.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qrgb.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qrgba64.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qtgui-config.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qtguiexports.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qtguiglobal.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qtransform.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qwindowdefs.h \
-	C:/Qt/6.9.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt/6.9.1/mingw_64/include/QtSerialPort/QSerialPort \
+	C:/Qt/6.9.1/mingw_64/include/QtSerialPort/qserialport.h \
+	C:/Qt/6.9.1/mingw_64/include/QtSerialPort/qserialportglobal.h \
+	C:/Qt/6.9.1/mingw_64/include/QtSerialPort/qtserialportexports.h \
 	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
 	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake \
@@ -1001,6 +890,21 @@ appFlight_autogen/timestamp: \
 	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
 	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
 	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPort/Qt6SerialPortAdditionalTargetInfo.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfig.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPort/Qt6SerialPortDependencies.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets-relwithdebinfo.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPort/Qt6SerialPortVersionlessAliasTargets.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPortPrivate/Qt6SerialPortPrivateAdditionalTargetInfo.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPortPrivate/Qt6SerialPortPrivateConfig.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPortPrivate/Qt6SerialPortPrivateConfigVersion.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPortPrivate/Qt6SerialPortPrivateConfigVersionImpl.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPortPrivate/Qt6SerialPortPrivateDependencies.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPortPrivate/Qt6SerialPortPrivateTargets.cmake \
+	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6SerialPortPrivate/Qt6SerialPortPrivateVersionlessAliasTargets.cmake \
 	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake \
 	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake \
 	C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake \
@@ -1122,12 +1026,10 @@ appFlight_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h \
-	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multiset.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h \
-	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_set.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
@@ -1140,7 +1042,6 @@ appFlight_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
-	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_set.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
@@ -1149,7 +1050,6 @@ appFlight_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
-	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
@@ -1194,7 +1094,6 @@ appFlight_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
-	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/set \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
@@ -1218,7 +1117,6 @@ appFlight_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map \
-	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_set \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/variant \
 	C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
@@ -1287,5 +1185,9 @@ appFlight_autogen/timestamp: \
 	F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appFlight_autogen/moc_predefs.h \
 	F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/datasource.cpp \
 	F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/datasource.h \
+	F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/frame.cpp \
+	F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/frame.h \
 	F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/main.cpp \
+	F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/samplerworker.cpp \
+	F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/samplerworker.h \
 	C:/Program\ Files/CMake/bin/cmake.exe

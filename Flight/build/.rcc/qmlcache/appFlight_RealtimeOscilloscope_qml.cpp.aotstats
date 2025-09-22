@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 391,
+                        "durationMicroseconds": 498,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "channelEnabled",
                         "line": 19
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 33,
-                        "durationMicroseconds": 303,
+                        "durationMicroseconds": 419,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "channelColors",
                         "line": 20
@@ -22,106 +22,90 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 33,
-                        "durationMicroseconds": 287,
+                        "durationMicroseconds": 371,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "channelLabels",
                         "line": 21
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 428,
-                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
-                        "functionName": "timeScales",
-                        "line": 27
-                    },
-                    {
-                        "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 621,
-                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
-                        "functionName": "timeScaleLabels",
-                        "line": 28
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 35,
-                        "durationMicroseconds": 488,
+                        "durationMicroseconds": 518,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "amplitudeScales",
-                        "line": 32
+                        "line": 31
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 40,
-                        "durationMicroseconds": 774,
+                        "durationMicroseconds": 791,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "amplitudeScaleLabels",
-                        "line": 33
+                        "line": 32
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 219,
+                        "durationMicroseconds": 211,
                         "errorMessage": "",
                         "functionName": "onCompleted",
-                        "line": 36
+                        "line": 35
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 96,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 41
+                        "line": 40
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 55
+                        "line": 54
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 186,
+                        "durationMicroseconds": 174,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 64
+                        "line": 63
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 69
+                        "line": 68
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 31,
-                        "durationMicroseconds": 305,
+                        "durationMicroseconds": 292,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "text",
-                        "line": 78
+                        "line": 77
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 809,
+                        "durationMicroseconds": 744,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 79
+                        "line": 78
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 76,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 77
+                        "line": 76
                     },
                     {
                         "codegenSuccessfull": false,
@@ -129,7 +113,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"width\".",
                         "functionName": "width",
-                        "line": 88
+                        "line": 87
                     },
                     {
                         "codegenSuccessfull": false,
@@ -137,7 +121,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 90
+                        "line": 89
                     },
                     {
                         "codegenSuccessfull": false,
@@ -145,23 +129,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"clicked\".",
                         "functionName": "onClicked",
-                        "line": 108
+                        "line": 107
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name oscilloscopeRoot",
                         "functionName": "color",
-                        "line": 93
+                        "line": 92
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 23,
                         "errorMessage": "Cannot access value for name oscilloscopeRoot",
                         "functionName": "color",
-                        "line": 95
+                        "line": 94
                     },
                     {
                         "codegenSuccessfull": false,
@@ -169,15 +153,15 @@
                         "durationMicroseconds": 10,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "text",
-                        "line": 100
+                        "line": 99
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 46,
-                        "durationMicroseconds": 274,
+                        "durationMicroseconds": 270,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "horizontalAlignment",
-                        "line": 104
+                        "line": 103
                     },
                     {
                         "codegenSuccessfull": false,
@@ -185,7 +169,7 @@
                         "durationMicroseconds": 239,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
-                        "line": 105
+                        "line": 104
                     },
                     {
                         "codegenSuccessfull": false,
@@ -193,7 +177,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"width\".",
                         "functionName": "width",
-                        "line": 116
+                        "line": 115
                     },
                     {
                         "codegenSuccessfull": false,
@@ -201,7 +185,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"clicked\".",
                         "functionName": "onClicked",
-                        "line": 136
+                        "line": 135
                     },
                     {
                         "codegenSuccessfull": false,
@@ -209,87 +193,87 @@
                         "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name clearButton",
                         "functionName": "color",
-                        "line": 121
+                        "line": 120
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 32,
+                        "durationMicroseconds": 22,
                         "errorMessage": "Cannot access value for name clearButton",
                         "functionName": "color",
-                        "line": 123
+                        "line": 122
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 31,
-                        "durationMicroseconds": 10,
+                        "durationMicroseconds": 16,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "text",
-                        "line": 128
+                        "line": 127
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 46,
-                        "durationMicroseconds": 248,
+                        "durationMicroseconds": 243,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "horizontalAlignment",
-                        "line": 132
+                        "line": 131
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 233,
+                        "durationMicroseconds": 236,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
-                        "line": 133
+                        "line": 132
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 111,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 159
+                        "line": 160
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 145,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 170
+                        "line": 171
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 174
+                        "line": 175
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 140,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 180
+                        "line": 181
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 40,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name oscilloscopeRoot",
                         "functionName": "color",
-                        "line": 187
+                        "line": 188
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 57,
-                        "durationMicroseconds": 139,
+                        "durationMicroseconds": 146,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 186
+                        "line": 187
                     },
                     {
                         "codegenSuccessfull": false,
@@ -297,7 +281,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"checked\".",
                         "functionName": "checked",
-                        "line": 196
+                        "line": 197
                     },
                     {
                         "codegenSuccessfull": false,
@@ -305,7 +289,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"checkedChanged\".",
                         "functionName": "onCheckedChanged",
-                        "line": 198
+                        "line": 199
                     },
                     {
                         "codegenSuccessfull": false,
@@ -313,31 +297,31 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"verticalCenter\".",
                         "functionName": "verticalCenter",
-                        "line": 195
+                        "line": 196
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 40,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name channelCheckBox",
                         "functionName": "x",
-                        "line": 207
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 40,
-                        "durationMicroseconds": 14,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "y",
                         "line": 208
                     },
                     {
                         "codegenSuccessfull": false,
+                        "column": 40,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "y",
+                        "line": 209
+                    },
+                    {
+                        "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 31,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name channelCheckBox",
                         "functionName": "color",
-                        "line": 212
+                        "line": 213
                     },
                     {
                         "codegenSuccessfull": false,
@@ -345,23 +329,23 @@
                         "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name channelCheckBox",
                         "functionName": "color",
-                        "line": 210
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 51,
-                        "durationMicroseconds": 30,
-                        "errorMessage": "Cannot access value for name channelCheckBox",
-                        "functionName": "width",
                         "line": 211
                     },
                     {
                         "codegenSuccessfull": false,
+                        "column": 51,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "Cannot access value for name channelCheckBox",
+                        "functionName": "width",
+                        "line": 212
+                    },
+                    {
+                        "codegenSuccessfull": false,
                         "column": 48,
-                        "durationMicroseconds": 11,
+                        "durationMicroseconds": 12,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
-                        "line": 220
+                        "line": 221
                     },
                     {
                         "codegenSuccessfull": false,
@@ -369,15 +353,15 @@
                         "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name channelCheckBox",
                         "functionName": "visible",
-                        "line": 221
+                        "line": 222
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name oscilloscopeRoot",
                         "functionName": "text",
-                        "line": 227
+                        "line": 228
                     },
                     {
                         "codegenSuccessfull": false,
@@ -385,15 +369,31 @@
                         "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name oscilloscopeRoot",
                         "functionName": "color",
-                        "line": 228
+                        "line": 229
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 57,
-                        "durationMicroseconds": 154,
+                        "durationMicroseconds": 165,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 230
+                        "line": 231
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 238
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 47,
+                        "durationMicroseconds": 146,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 249
                     },
                     {
                         "codegenSuccessfull": true,
@@ -401,199 +401,47 @@
                         "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 237
+                        "line": 253
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 261
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 265
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 98,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 270
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 144,
+                        "durationMicroseconds": 140,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 248
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"width\".",
-                        "functionName": "width",
-                        "line": 253
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"model\".",
-                        "functionName": "model",
-                        "line": 255
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 35,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"currentIndex\".",
-                        "functionName": "currentIndex",
-                        "line": 256
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 44,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"currentIndexChanged\".",
-                        "functionName": "onCurrentIndexChanged",
-                        "line": 258
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 32,
-                        "durationMicroseconds": 38,
-                        "errorMessage": "Cannot access value for name timeScaleCombo",
-                        "functionName": "color",
-                        "line": 264
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 39,
-                        "durationMicroseconds": 24,
-                        "errorMessage": "Cannot access value for name timeScaleCombo",
-                        "functionName": "color",
-                        "line": 265
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 31,
-                        "durationMicroseconds": 24,
-                        "errorMessage": "Cannot access value for name timeScaleCombo",
-                        "functionName": "text",
-                        "line": 271
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 44,
-                        "durationMicroseconds": 259,
-                        "errorMessage": "Cannot access value for name Text",
-                        "functionName": "verticalAlignment",
-                        "line": 274
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 28,
-                        "errorMessage": "Cannot access value for name timeScaleCombo",
-                        "functionName": "x",
-                        "line": 280
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 24,
-                        "errorMessage": "Cannot access value for name timeScaleCombo",
-                        "functionName": "y",
                         "line": 281
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"y\".",
-                        "functionName": "y",
-                        "line": 288
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 32,
-                        "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"width\".",
                         "functionName": "width",
-                        "line": 289
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 33,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"height\".",
-                        "functionName": "height",
-                        "line": 290
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 36,
-                        "durationMicroseconds": 26,
-                        "errorMessage": "Cannot access value for name timeScaleCombo",
-                        "functionName": "model",
-                        "line": 295
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 43,
-                        "durationMicroseconds": 22,
-                        "errorMessage": "Cannot access value for name timeScaleCombo",
-                        "functionName": "currentIndex",
-                        "line": 296
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 43,
-                        "durationMicroseconds": 9,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "fill",
-                        "line": 294
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 32,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"width\".",
-                        "functionName": "width",
-                        "line": 309
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 36,
-                        "durationMicroseconds": 10,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "color",
-                        "line": 313
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 35,
-                        "durationMicroseconds": 361,
-                        "errorMessage": "Cannot access value for name modelData",
-                        "functionName": "text",
-                        "line": 318
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 48,
-                        "durationMicroseconds": 245,
-                        "errorMessage": "Cannot access value for name Text",
-                        "functionName": "verticalAlignment",
-                        "line": 321
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 28,
-                        "durationMicroseconds": 110,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 328
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 47,
-                        "durationMicroseconds": 150,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 339
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"width\".",
-                        "functionName": "width",
-                        "line": 344
+                        "line": 286
                     },
                     {
                         "codegenSuccessfull": false,
@@ -601,7 +449,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"model\".",
                         "functionName": "model",
-                        "line": 346
+                        "line": 288
                     },
                     {
                         "codegenSuccessfull": false,
@@ -609,7 +457,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"currentIndex\".",
                         "functionName": "currentIndex",
-                        "line": 347
+                        "line": 289
                     },
                     {
                         "codegenSuccessfull": false,
@@ -617,55 +465,55 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"currentIndexChanged\".",
                         "functionName": "onCurrentIndexChanged",
-                        "line": 349
+                        "line": 291
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 28,
                         "errorMessage": "Cannot access value for name amplitudeScaleCombo",
                         "functionName": "color",
-                        "line": 355
+                        "line": 297
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 23,
                         "errorMessage": "Cannot access value for name amplitudeScaleCombo",
                         "functionName": "color",
-                        "line": 356
+                        "line": 298
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 31,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 23,
                         "errorMessage": "Cannot access value for name amplitudeScaleCombo",
                         "functionName": "text",
-                        "line": 362
+                        "line": 304
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 254,
+                        "durationMicroseconds": 256,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
-                        "line": 365
+                        "line": 307
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name amplitudeScaleCombo",
                         "functionName": "x",
-                        "line": 371
+                        "line": 313
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 24,
+                        "durationMicroseconds": 25,
                         "errorMessage": "Cannot access value for name amplitudeScaleCombo",
                         "functionName": "y",
-                        "line": 372
+                        "line": 314
                     },
                     {
                         "codegenSuccessfull": false,
@@ -673,7 +521,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"y\".",
                         "functionName": "y",
-                        "line": 379
+                        "line": 321
                     },
                     {
                         "codegenSuccessfull": false,
@@ -681,7 +529,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"width\".",
                         "functionName": "width",
-                        "line": 380
+                        "line": 322
                     },
                     {
                         "codegenSuccessfull": false,
@@ -689,7 +537,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"height\".",
                         "functionName": "height",
-                        "line": 381
+                        "line": 323
                     },
                     {
                         "codegenSuccessfull": false,
@@ -697,23 +545,23 @@
                         "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name amplitudeScaleCombo",
                         "functionName": "model",
-                        "line": 386
+                        "line": 328
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 43,
-                        "durationMicroseconds": 22,
+                        "durationMicroseconds": 21,
                         "errorMessage": "Cannot access value for name amplitudeScaleCombo",
                         "functionName": "currentIndex",
-                        "line": 387
+                        "line": 329
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 43,
-                        "durationMicroseconds": 10,
+                        "durationMicroseconds": 9,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "fill",
-                        "line": 385
+                        "line": 327
                     },
                     {
                         "codegenSuccessfull": false,
@@ -721,127 +569,119 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"width\".",
                         "functionName": "width",
-                        "line": 400
+                        "line": 342
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 11,
+                        "durationMicroseconds": 10,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
-                        "line": 404
+                        "line": 346
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 364,
+                        "durationMicroseconds": 355,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "text",
-                        "line": 409
+                        "line": 351
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 48,
-                        "durationMicroseconds": 239,
+                        "durationMicroseconds": 233,
                         "errorMessage": "Cannot access value for name Text",
                         "functionName": "verticalAlignment",
-                        "line": 412
+                        "line": 354
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 108,
                         "errorMessage": "",
                         "functionName": "theme",
-                        "line": 426
+                        "line": 368
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 88,
                         "errorMessage": "",
                         "functionName": "animationOptions",
-                        "line": 430
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 22,
-                        "durationMicroseconds": 343,
-                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::timeScales with type QVariant (stored as QJSValue)",
-                        "functionName": "max",
-                        "line": 437
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 373,
-                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::timeScaleLabels with type QVariant (stored as QJSValue)",
-                        "functionName": "titleText",
-                        "line": 444
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 29,
-                        "durationMicroseconds": 299,
-                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QBrush stored as QVariant",
-                        "functionName": "titleBrush",
-                        "line": 445
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 22,
-                        "durationMicroseconds": 330,
-                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::amplitudeScales with type QVariant (stored as QJSValue)",
-                        "functionName": "min",
-                        "line": 451
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 22,
-                        "durationMicroseconds": 355,
-                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::amplitudeScales with type QVariant (stored as QJSValue)",
-                        "functionName": "max",
-                        "line": 452
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 364,
-                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::amplitudeScaleLabels with type QVariant (stored as QJSValue)",
-                        "functionName": "titleText",
-                        "line": 459
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 29,
-                        "durationMicroseconds": 277,
-                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QBrush stored as QVariant",
-                        "functionName": "titleBrush",
-                        "line": 460
+                        "line": 372
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 86,
+                        "column": 28,
+                        "durationMicroseconds": 225,
                         "errorMessage": "",
-                        "functionName": "axisX",
-                        "line": 467
+                        "functionName": "titleText",
+                        "line": 386
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 298,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QBrush stored as QVariant",
+                        "functionName": "titleBrush",
+                        "line": 387
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 331,
+                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::amplitudeScales with type QVariant (stored as QJSValue)",
+                        "functionName": "min",
+                        "line": 393
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 290,
+                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::amplitudeScales with type QVariant (stored as QJSValue)",
+                        "functionName": "max",
+                        "line": 394
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 349,
+                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::amplitudeScaleLabels with type QVariant (stored as QJSValue)",
+                        "functionName": "titleText",
+                        "line": 401
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 288,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QBrush stored as QVariant",
+                        "functionName": "titleBrush",
+                        "line": 402
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
                         "durationMicroseconds": 84,
                         "errorMessage": "",
+                        "functionName": "axisX",
+                        "line": 409
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 76,
+                        "errorMessage": "",
                         "functionName": "axisY",
-                        "line": 468
+                        "line": 410
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 230,
+                        "durationMicroseconds": 228,
                         "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::channelColors with type QVariant (stored as QJSValue)",
                         "functionName": "color",
-                        "line": 469
+                        "line": 411
                     },
                     {
                         "codegenSuccessfull": false,
@@ -849,7 +689,7 @@
                         "durationMicroseconds": 210,
                         "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::channelEnabled with type QVariant (stored as QJSValue)",
                         "functionName": "visible",
-                        "line": 471
+                        "line": 413
                     },
                     {
                         "codegenSuccessfull": false,
@@ -857,15 +697,15 @@
                         "durationMicroseconds": 265,
                         "errorMessage": "Cannot access value for name openGLSupported",
                         "functionName": "useOpenGL",
-                        "line": 472
+                        "line": 414
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
                         "functionName": "axisX",
-                        "line": 479
+                        "line": 421
                     },
                     {
                         "codegenSuccessfull": true,
@@ -873,103 +713,103 @@
                         "durationMicroseconds": 78,
                         "errorMessage": "",
                         "functionName": "axisY",
-                        "line": 480
+                        "line": 422
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 249,
+                        "durationMicroseconds": 247,
                         "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::channelColors with type QVariant (stored as QJSValue)",
                         "functionName": "color",
-                        "line": 481
+                        "line": 423
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 224,
+                        "durationMicroseconds": 255,
                         "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::channelEnabled with type QVariant (stored as QJSValue)",
                         "functionName": "visible",
-                        "line": 483
+                        "line": 425
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 260,
+                        "durationMicroseconds": 261,
                         "errorMessage": "Cannot access value for name openGLSupported",
                         "functionName": "useOpenGL",
-                        "line": 484
+                        "line": 426
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
                         "functionName": "axisX",
-                        "line": 491
+                        "line": 433
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "axisY",
-                        "line": 492
+                        "line": 434
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 236,
+                        "durationMicroseconds": 232,
                         "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::channelColors with type QVariant (stored as QJSValue)",
                         "functionName": "color",
-                        "line": 493
+                        "line": 435
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 203,
+                        "durationMicroseconds": 276,
                         "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::channelEnabled with type QVariant (stored as QJSValue)",
                         "functionName": "visible",
-                        "line": 495
+                        "line": 437
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 271,
+                        "durationMicroseconds": 254,
                         "errorMessage": "Cannot access value for name openGLSupported",
                         "functionName": "useOpenGL",
-                        "line": 496
+                        "line": 438
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 91,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "axisX",
-                        "line": 503
+                        "line": 445
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 88,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "axisY",
-                        "line": 504
+                        "line": 446
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 235,
+                        "durationMicroseconds": 237,
                         "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::channelColors with type QVariant (stored as QJSValue)",
                         "functionName": "color",
-                        "line": 505
+                        "line": 447
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 196,
+                        "durationMicroseconds": 220,
                         "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml)::channelEnabled with type QVariant (stored as QJSValue)",
                         "functionName": "visible",
-                        "line": 507
+                        "line": 449
                     },
                     {
                         "codegenSuccessfull": false,
@@ -977,23 +817,23 @@
                         "durationMicroseconds": 253,
                         "errorMessage": "Cannot access value for name openGLSupported",
                         "functionName": "useOpenGL",
-                        "line": 508
+                        "line": 450
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 60,
                         "errorMessage": "Cannot access value for name dataSource",
                         "functionName": "target",
-                        "line": 517
+                        "line": 459
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 9,
-                        "durationMicroseconds": 96,
-                        "errorMessage": "Cannot access value for name range",
+                        "durationMicroseconds": 358,
+                        "errorMessage": "Cannot access value for name dataSource",
                         "functionName": "onUpdateCurve",
-                        "line": 519
+                        "line": 461
                     }
                 ],
                 "filepath": "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/RealtimeOscilloscope.qml"

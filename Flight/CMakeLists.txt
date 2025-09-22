@@ -4,7 +4,7 @@ project(Flight VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 COMPONENTS Core Widgets Gui Qml Quick Charts QuickControls2 REQUIRED)
+find_package(Qt6 COMPONENTS Core Widgets Gui Qml Quick Charts QuickControls2 SerialPort REQUIRED)
 
 qt_standard_project_setup(REQUIRES 6.8)
 
@@ -12,6 +12,10 @@ qt_add_executable(appFlight
     main.cpp
     datasource.cpp
     datasource.h
+    samplerworker.cpp
+    samplerworker.h
+    frame.cpp
+    frame.h
 )
 
 qt_add_qml_module(appFlight
@@ -47,6 +51,7 @@ target_link_libraries(appFlight
     Qt6::Quick
     Qt6::Charts
     Qt6::QuickControls2
+    Qt6::SerialPort
 )
 
 include(GNUInstallDirs)
@@ -55,3 +60,4 @@ install(TARGETS appFlight
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+

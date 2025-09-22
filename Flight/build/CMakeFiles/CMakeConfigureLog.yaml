@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.14+a129329f1 for .NET Framework
-      Build started 13/09/2025 13:56:40.
+      Build started 13/09/2025 16:51:57.
       
       Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.77
+      Time Elapsed 00:00:00.73
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-q4appd"
-      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-q4appd"
+      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-1wvo5b"
+      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-1wvo5b"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -83,40 +83,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-q4appd'
+        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-1wvo5b'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_182c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_133c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.14+a129329f1 for .NET Framework
-        Build started 13/09/2025 13:56:41.
+        Build started 13/09/2025 16:51:58.
         
-        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4appd\\cmTC_182c4.vcxproj" on node 1 (default targets).
+        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wvo5b\\cmTC_133c3.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_182c4.dir\\Debug\\".
+          Creating directory "cmTC_133c3.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4appd\\Debug\\".
-          Creating directory "cmTC_182c4.dir\\Debug\\cmTC_182c4.tlog\\".
+          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wvo5b\\Debug\\".
+          Creating directory "cmTC_133c3.dir\\Debug\\cmTC_133c3.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_182c4.dir\\Debug\\cmTC_182c4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_182c4.dir\\Debug\\cmTC_182c4.tlog\\unsuccessfulbuild".
+          Creating "cmTC_133c3.dir\\Debug\\cmTC_133c3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_133c3.dir\\Debug\\cmTC_133c3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_182c4.dir\\Debug\\\\" /Fd"cmTC_182c4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_133c3.dir\\Debug\\\\" /Fd"cmTC_133c3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35213 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_182c4.dir\\Debug\\\\" /Fd"cmTC_182c4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_133c3.dir\\Debug\\\\" /Fd"cmTC_133c3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4appd\\Debug\\cmTC_182c4.exe" /INCREMENTAL /ILK:"cmTC_182c4.dir\\Debug\\cmTC_182c4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-q4appd/Debug/cmTC_182c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-q4appd/Debug/cmTC_182c4.lib" /MACHINE:X64  /machine:x64 cmTC_182c4.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_182c4.vcxproj -> F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4appd\\Debug\\cmTC_182c4.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wvo5b\\Debug\\cmTC_133c3.exe" /INCREMENTAL /ILK:"cmTC_133c3.dir\\Debug\\cmTC_133c3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-1wvo5b/Debug/cmTC_133c3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-1wvo5b/Debug/cmTC_133c3.lib" /MACHINE:X64  /machine:x64 cmTC_133c3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_133c3.vcxproj -> F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wvo5b\\Debug\\cmTC_133c3.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_182c4.dir\\Debug\\cmTC_182c4.tlog\\unsuccessfulbuild".
-          Touching "cmTC_182c4.dir\\Debug\\cmTC_182c4.tlog\\cmTC_182c4.lastbuildstate".
-        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q4appd\\cmTC_182c4.vcxproj" (default targets).
+          Deleting file "cmTC_133c3.dir\\Debug\\cmTC_133c3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_133c3.dir\\Debug\\cmTC_133c3.tlog\\cmTC_133c3.lastbuildstate".
+        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wvo5b\\cmTC_133c3.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.76
+        Time Elapsed 00:00:00.64
         
       exitCode: 0
   -
@@ -147,10 +147,6 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.44.35213.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -166,8 +162,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-hxnkpa"
-      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-hxnkpa"
+      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-o0cgpx"
+      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-o0cgpx"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -177,40 +173,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-hxnkpa'
+        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-o0cgpx'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cc9b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d9ad7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.14+a129329f1 for .NET Framework
-        Build started 13/09/2025 13:56:48.
+        Build started 13/09/2025 16:51:59.
         
-        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\cmTC_cc9b3.vcxproj" on node 1 (default targets).
+        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\cmTC_d9ad7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_cc9b3.dir\\Debug\\".
+          Creating directory "cmTC_d9ad7.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\Debug\\".
-          Creating directory "cmTC_cc9b3.dir\\Debug\\cmTC_cc9b3.tlog\\".
+          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\Debug\\".
+          Creating directory "cmTC_d9ad7.dir\\Debug\\cmTC_d9ad7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_cc9b3.dir\\Debug\\cmTC_cc9b3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_cc9b3.dir\\Debug\\cmTC_cc9b3.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d9ad7.dir\\Debug\\cmTC_d9ad7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d9ad7.dir\\Debug\\cmTC_d9ad7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc9b3.dir\\Debug\\\\" /Fd"cmTC_cc9b3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d9ad7.dir\\Debug\\\\" /Fd"cmTC_d9ad7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35213 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc9b3.dir\\Debug\\\\" /Fd"cmTC_cc9b3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d9ad7.dir\\Debug\\\\" /Fd"cmTC_d9ad7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\src.cxx"
           src.cxx
-        F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\cmTC_cc9b3.vcxproj]
-        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\cmTC_cc9b3.vcxproj" (default targets) -- FAILED.
+        F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\cmTC_d9ad7.vcxproj]
+        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\cmTC_d9ad7.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\cmTC_cc9b3.vcxproj" (default target) (1) ->
+        "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\cmTC_d9ad7.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hxnkpa\\cmTC_cc9b3.vcxproj]
+          F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o0cgpx\\cmTC_d9ad7.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.36
+        Time Elapsed 00:00:00.53
         
       exitCode: 1
   -
@@ -227,8 +223,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-pubd5o"
-      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-pubd5o"
+      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-2ob3m4"
+      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-2ob3m4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -238,42 +234,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-pubd5o'
+        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-2ob3m4'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_01393.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5185a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.14+a129329f1 for .NET Framework
-        Build started 13/09/2025 13:56:49.
+        Build started 13/09/2025 16:52:00.
         
-        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pubd5o\\cmTC_01393.vcxproj" on node 1 (default targets).
+        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ob3m4\\cmTC_5185a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_01393.dir\\Debug\\".
+          Creating directory "cmTC_5185a.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pubd5o\\Debug\\".
-          Creating directory "cmTC_01393.dir\\Debug\\cmTC_01393.tlog\\".
+          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ob3m4\\Debug\\".
+          Creating directory "cmTC_5185a.dir\\Debug\\cmTC_5185a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_01393.dir\\Debug\\cmTC_01393.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_01393.dir\\Debug\\cmTC_01393.tlog\\unsuccessfulbuild".
+          Creating "cmTC_5185a.dir\\Debug\\cmTC_5185a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5185a.dir\\Debug\\cmTC_5185a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_01393.dir\\Debug\\\\" /Fd"cmTC_01393.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pubd5o\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5185a.dir\\Debug\\\\" /Fd"cmTC_5185a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ob3m4\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35213 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_01393.dir\\Debug\\\\" /Fd"cmTC_01393.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pubd5o\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5185a.dir\\Debug\\\\" /Fd"cmTC_5185a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ob3m4\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pubd5o\\Debug\\cmTC_01393.exe" /INCREMENTAL /ILK:"cmTC_01393.dir\\Debug\\cmTC_01393.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-pubd5o/Debug/cmTC_01393.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-pubd5o/Debug/cmTC_01393.lib" /MACHINE:X64  /machine:x64 cmTC_01393.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pubd5o\\cmTC_01393.vcxproj]
-        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pubd5o\\cmTC_01393.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ob3m4\\Debug\\cmTC_5185a.exe" /INCREMENTAL /ILK:"cmTC_5185a.dir\\Debug\\cmTC_5185a.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-2ob3m4/Debug/cmTC_5185a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-2ob3m4/Debug/cmTC_5185a.lib" /MACHINE:X64  /machine:x64 cmTC_5185a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ob3m4\\cmTC_5185a.vcxproj]
+        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ob3m4\\cmTC_5185a.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pubd5o\\cmTC_01393.vcxproj" (default target) (1) ->
+        "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ob3m4\\cmTC_5185a.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pubd5o\\cmTC_01393.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ob3m4\\cmTC_5185a.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.43
+        Time Elapsed 00:00:00.65
         
       exitCode: 1
   -
@@ -290,8 +286,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-qh8da8"
-      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-qh8da8"
+      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-8pc84n"
+      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-8pc84n"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -301,42 +297,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-qh8da8'
+        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-8pc84n'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0f4dd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_16194.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.14+a129329f1 for .NET Framework
-        Build started 13/09/2025 13:56:49.
+        Build started 13/09/2025 16:52:01.
         
-        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh8da8\\cmTC_0f4dd.vcxproj" on node 1 (default targets).
+        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pc84n\\cmTC_16194.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0f4dd.dir\\Debug\\".
+          Creating directory "cmTC_16194.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh8da8\\Debug\\".
-          Creating directory "cmTC_0f4dd.dir\\Debug\\cmTC_0f4dd.tlog\\".
+          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pc84n\\Debug\\".
+          Creating directory "cmTC_16194.dir\\Debug\\cmTC_16194.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0f4dd.dir\\Debug\\cmTC_0f4dd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0f4dd.dir\\Debug\\cmTC_0f4dd.tlog\\unsuccessfulbuild".
+          Creating "cmTC_16194.dir\\Debug\\cmTC_16194.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_16194.dir\\Debug\\cmTC_16194.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0f4dd.dir\\Debug\\\\" /Fd"cmTC_0f4dd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh8da8\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_16194.dir\\Debug\\\\" /Fd"cmTC_16194.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pc84n\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35213 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0f4dd.dir\\Debug\\\\" /Fd"cmTC_0f4dd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh8da8\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_16194.dir\\Debug\\\\" /Fd"cmTC_16194.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pc84n\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh8da8\\Debug\\cmTC_0f4dd.exe" /INCREMENTAL /ILK:"cmTC_0f4dd.dir\\Debug\\cmTC_0f4dd.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-qh8da8/Debug/cmTC_0f4dd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-qh8da8/Debug/cmTC_0f4dd.lib" /MACHINE:X64  /machine:x64 cmTC_0f4dd.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh8da8\\cmTC_0f4dd.vcxproj]
-        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh8da8\\cmTC_0f4dd.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pc84n\\Debug\\cmTC_16194.exe" /INCREMENTAL /ILK:"cmTC_16194.dir\\Debug\\cmTC_16194.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-8pc84n/Debug/cmTC_16194.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-8pc84n/Debug/cmTC_16194.lib" /MACHINE:X64  /machine:x64 cmTC_16194.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pc84n\\cmTC_16194.vcxproj]
+        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pc84n\\cmTC_16194.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh8da8\\cmTC_0f4dd.vcxproj" (default target) (1) ->
+        "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pc84n\\cmTC_16194.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qh8da8\\cmTC_0f4dd.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pc84n\\cmTC_16194.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.44
+        Time Elapsed 00:00:00.56
         
       exitCode: 1
   -
@@ -354,8 +350,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-edgudy"
-      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-edgudy"
+      source: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-hmesyt"
+      binary: "F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-hmesyt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -365,40 +361,40 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-edgudy'
+        Change Dir: 'F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-hmesyt'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ac049.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eae28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.14+a129329f1 for .NET Framework
-        Build started 13/09/2025 13:56:50.
+        Build started 13/09/2025 16:52:02.
         
-        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edgudy\\cmTC_ac049.vcxproj" on node 1 (default targets).
+        Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hmesyt\\cmTC_eae28.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ac049.dir\\Debug\\".
+          Creating directory "cmTC_eae28.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edgudy\\Debug\\".
-          Creating directory "cmTC_ac049.dir\\Debug\\cmTC_ac049.tlog\\".
+          Creating directory "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hmesyt\\Debug\\".
+          Creating directory "cmTC_eae28.dir\\Debug\\cmTC_eae28.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ac049.dir\\Debug\\cmTC_ac049.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ac049.dir\\Debug\\cmTC_ac049.tlog\\unsuccessfulbuild".
+          Creating "cmTC_eae28.dir\\Debug\\cmTC_eae28.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_eae28.dir\\Debug\\cmTC_eae28.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ac049.dir\\Debug\\\\" /Fd"cmTC_ac049.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edgudy\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eae28.dir\\Debug\\\\" /Fd"cmTC_eae28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hmesyt\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35213 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ac049.dir\\Debug\\\\" /Fd"cmTC_ac049.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edgudy\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eae28.dir\\Debug\\\\" /Fd"cmTC_eae28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hmesyt\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edgudy\\Debug\\cmTC_ac049.exe" /INCREMENTAL /ILK:"cmTC_ac049.dir\\Debug\\cmTC_ac049.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-edgudy/Debug/cmTC_ac049.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-edgudy/Debug/cmTC_ac049.lib" /MACHINE:X64  /machine:x64 cmTC_ac049.dir\\Debug\\src.obj
-          cmTC_ac049.vcxproj -> F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edgudy\\Debug\\cmTC_ac049.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hmesyt\\Debug\\cmTC_eae28.exe" /INCREMENTAL /ILK:"cmTC_eae28.dir\\Debug\\cmTC_eae28.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-hmesyt/Debug/cmTC_eae28.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/QT_work/DroneFlightV1/Flight1/FlightTools/Flight/build/CMakeFiles/CMakeScratch/TryCompile-hmesyt/Debug/cmTC_eae28.lib" /MACHINE:X64  /machine:x64 cmTC_eae28.dir\\Debug\\src.obj
+          cmTC_eae28.vcxproj -> F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hmesyt\\Debug\\cmTC_eae28.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ac049.dir\\Debug\\cmTC_ac049.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ac049.dir\\Debug\\cmTC_ac049.tlog\\cmTC_ac049.lastbuildstate".
-        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edgudy\\cmTC_ac049.vcxproj" (default targets).
+          Deleting file "cmTC_eae28.dir\\Debug\\cmTC_eae28.tlog\\unsuccessfulbuild".
+          Touching "cmTC_eae28.dir\\Debug\\cmTC_eae28.tlog\\cmTC_eae28.lastbuildstate".
+        Done Building Project "F:\\QT_work\\DroneFlightV1\\Flight1\\FlightTools\\Flight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hmesyt\\cmTC_eae28.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.57
+        Time Elapsed 00:00:00.78
         
       exitCode: 0
 ...

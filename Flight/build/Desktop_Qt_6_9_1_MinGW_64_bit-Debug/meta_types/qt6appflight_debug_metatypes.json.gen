@@ -3,7 +3,7 @@
         "classes": [
             {
                 "className": "DataSource",
-                "lineNumber": 20,
+                "lineNumber": 16,
                 "object": true,
                 "qualifiedClassName": "DataSource",
                 "signals": [
@@ -11,18 +11,6 @@
                         "access": "public",
                         "index": 0,
                         "name": "updateCurve",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "index": 1,
-                        "name": "workRequested",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "index": 2,
-                        "name": "finished",
                         "returnType": "void"
                     }
                 ],
@@ -35,20 +23,8 @@
                                 "type": "QAbstractSeries*"
                             }
                         ],
-                        "index": 3,
+                        "index": 1,
                         "name": "update",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "index": 4,
-                        "name": "doWork",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "private",
-                        "index": 5,
-                        "name": "generateSineWave",
                         "returnType": "void"
                     }
                 ],
@@ -61,6 +37,82 @@
             }
         ],
         "inputFile": "datasource.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Frame",
+                "lineNumber": 6,
+                "object": true,
+                "qualifiedClassName": "Frame",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "frame.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SamplerWorker",
+                "lineNumber": 23,
+                "object": true,
+                "qualifiedClassName": "SamplerWorker",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "workRequested",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "updateCurve",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "finished",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "doWork",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "source",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "setSource",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "samplerworker.h",
         "outputRevision": 69
     }
 ]

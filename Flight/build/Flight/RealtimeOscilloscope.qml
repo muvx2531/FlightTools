@@ -13,8 +13,8 @@ Rectangle {
     radius: 8
 
     // Simple properties
-    property int range: 5000
-    property int refreshPoints: 100
+    property real range: 0.005
+    property real refreshPoints: 0.005
     property bool isRunning: false
     property var channelEnabled: [true, true, true, true]
     property var channelColors: ["#00ff00", "#ffff00", "#ff6600", "#ff0088"]
@@ -23,10 +23,9 @@ Rectangle {
     // Frame rate properties - handled by backend
     property real currentFPS: 0
     
-    // Time scale options: more comprehensive range
-    property var timeScales: [0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
-    property var timeScaleLabels: ["0.01s/div", "0.02s/div", "0.05s/div", "0.1s/div", "0.2s/div", "0.5s/div", "1s/div", "2s/div", "5s/div", "10s/div"]
-    property int currentTimeScaleIndex: 6  // Default to 1s/div
+    // Fixed time scale: 0.1s/div
+    property real fixedTimeScale: 0.1
+    property string fixedTimeScaleLabel: "0.1s/div"
     
     // Amplitude scale options: comprehensive range from small to large scales
     property var amplitudeScales: [0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0, 20.0, 50.0, 100.0]
@@ -139,6 +138,9 @@ Rectangle {
                         oscilloscopeChart.series("CH2").clear()
                         oscilloscopeChart.series("CH3").clear()
                         oscilloscopeChart.series("CH4").clear()
+
+                        timeAxis.max = 2000;  // 2 seconds
+                        timeAxis.min = 0;
                         
                         // Timer reset not needed anymore
                         
@@ -146,8 +148,7 @@ Rectangle {
                         oscilloscopeRoot.currentFPS = 0
                         
                         // Reset time axis to initial state
-                        var currentTimeScale = oscilloscopeRoot.timeScales[oscilloscopeRoot.currentTimeScaleIndex]
-                        var timeWindow = currentTimeScale * 10
+                        var timeWindow = oscilloscopeRoot.fixedTimeScale * 10  // 0.1 * 10 = 1.0 second
                         oscilloscopeChart.axisX().min = 0
                         oscilloscopeChart.axisX().max = timeWindow
                         
@@ -239,7 +240,7 @@ Rectangle {
                     color: "#404040"
                 }
 
-                // Time Scale Controls
+                // Fixed Time Scale Display
                 Text {
                     text: "TIME SCALE"
                     color: "#00aaff"
@@ -248,79 +249,20 @@ Rectangle {
                     anchors.horizontalCenter: parent.horizontalCenter
                 }
 
-                ComboBox {
-                    id: timeScaleCombo
+                Rectangle {
                     width: parent.width
                     height: 30
-                    model: oscilloscopeRoot.timeScaleLabels
-                    currentIndex: oscilloscopeRoot.currentTimeScaleIndex
-                    
-                    onCurrentIndexChanged: {
-                        oscilloscopeRoot.currentTimeScaleIndex = currentIndex
-                        console.log("Time scale changed to:", oscilloscopeRoot.timeScaleLabels[currentIndex])
-                    }
-                    
-                    background: Rectangle {
-                        color: timeScaleCombo.down ? "#404040" : "#2a2a2a"
-                        border.color: timeScaleCombo.activeFocus ? "#00aaff" : "#555555"
-                        border.width: 1
-                        radius: 4
-                    }
-                    
-                    contentItem: Text {
-                        text: timeScaleCombo.displayText
+                    color: "#2a2a2a"
+                    border.color: "#00aaff"
+                    border.width: 1
+                    radius: 4
+
+                    Text {
+                        text: oscilloscopeRoot.fixedTimeScaleLabel
                         color: "#ffffff"
-                        font.pointSize: 8
-                        verticalAlignment: Text.AlignVCenter
-                        leftPadding: 8
-                        rightPadding: 8
-                    }
-                    
-                    indicator: Text {
-                        x: timeScaleCombo.width - width - 8
-                        y: timeScaleCombo.height / 2 - height / 2
-                        text: "▼"
-                        color: "#00aaff"
-                        font.pointSize: 8
-                    }
-                    
-                    popup: Popup {
-                        y: timeScaleCombo.height
-                        width: timeScaleCombo.width
-                        height: Math.min(200, timeScaleCombo.model.length * 25 + 2)
-                        padding: 1
-                        
-                        contentItem: ListView {
-                            anchors.fill: parent
-                            model: timeScaleCombo.delegateModel
-                            currentIndex: timeScaleCombo.highlightedIndex
-                            clip: true
-                        }
-                        
-                        background: Rectangle {
-                            color: "#2a2a2a"
-                            border.color: "#555555"
-                            border.width: 1
-                            radius: 4
-                        }
-                    }
-                    
-                    delegate: ItemDelegate {
-                        width: timeScaleCombo.width
-                        height: 25
-                        
-                        background: Rectangle {
-                            color: parent.hovered ? "#404040" : "#2a2a2a"
-                            radius: 2
-                        }
-                        
-                        contentItem: Text {
-                            text: modelData
-                            color: "#ffffff"
-                            font.pointSize: 8
-                            verticalAlignment: Text.AlignVCenter
-                            leftPadding: 8
-                        }
+                        font.pointSize: 9
+                        font.bold: true
+                        anchors.centerIn: parent
                     }
                 }
 
@@ -434,14 +376,14 @@ Rectangle {
             ValueAxis {
                 id: timeAxis
                 min: 0
-                max: oscilloscopeRoot.timeScales[oscilloscopeRoot.currentTimeScaleIndex] * 10
+                max: 2000  // 2 seconds of data (2000ms)
                 tickCount: 11
                 gridVisible: true
                 gridLineColor: "#00aa00"
                 lineVisible: true
                 labelsVisible: true
                 labelsColor: "#00ff00"
-                titleText: "Time (" + oscilloscopeRoot.timeScaleLabels[oscilloscopeRoot.currentTimeScaleIndex] + ")"
+                titleText: "Time (" + oscilloscopeRoot.fixedTimeScaleLabel + ")"
                 titleBrush: Qt.rgba(0, 1, 0, 1)
             }
             
@@ -515,14 +457,16 @@ Rectangle {
     // Connections to DataSource for real-time data updates
     Connections {
         target: dataSource
-        
-        function onUpdateCurve() {
 
-            console.log("channel1.count"+channel1.count)
-            if(channel1.count >= range)
-            {
-                channel1.axisX.max += refreshPoints;
-                channel1.axisX.min = channel1.axisX.max - range;
+        function onUpdateCurve() {
+            //console.log("Updating oscilloscope with new data")
+            console.log("Channel1 count: " + channel1.count + " timeAxis max: " + timeAxis.max + " min: " + timeAxis.min)
+
+            // Update time axis (scrolling window)
+            // With 1000Hz sampling (1ms intervals), we get 1000 points per second
+            if(channel1.count >= 2000) { // Start scrolling after 2 seconds of data
+                timeAxis.max += 10;  // Scroll by 10ms
+                timeAxis.min = timeAxis.max - 2000;  // Keep 2 second window
             }
 
             // Update the chart series with new data from DataSource
